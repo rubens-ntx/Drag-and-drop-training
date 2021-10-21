@@ -9,7 +9,6 @@ body {
 
 .boards {
     display: flex;
-    justify-content: space-between;
     margin-top: 32px;
 }
 
@@ -49,5 +48,17 @@ body {
     background: gray;
     margin-bottom: 16px;
     border-radius: 8px;
+}
+
+.status.green {
+    background-color: #17c71f;
+}
+
+.status.red {
+    background-color: red;
+}
+
+.status.blue {
+    background-color: #33adff;
 }
 
